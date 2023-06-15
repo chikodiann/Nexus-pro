@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .component-container {
+    @apply mx-auto px-4 py-8 lg:w-[80%] lg:px-1;
+  }
+
+  .header-box-shadow {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  }
+
+  .curve {
+    border-radius: 85%/0 0 100px 100px;
+  }
+}
